@@ -2,7 +2,7 @@
 ## Project name: modvis_
 
 ## Description:
-modvis is a tool that allows users to easily access and analyze data on the latest mods for various games, as well as track trends and patterns within the video game modding community. This project utilizes external APIs to gather data about mods on Nexus Mods and stores them in a database that can be queried and then visualized on a dashboard. The value proposition of this project is to provide a tool that allows users to rapidly understand customer sentiment, build customer stories and personas, and identify patterns in the modding community that can be used to inform product development and marketing decisions.
+modvis is a tool that allows users to easily access and analyze data on the latest mods for various games, as well as track trends and patterns within the video game modding community. This project utilizes external APIs to gather data about mods on large modding community sites and stores them in a database that can be queried and then visualized on a dashboard. The value proposition of this project is to provide a tool that allows users to rapidly understand customer sentiment, build customer stories and personas, and identify patterns in the modding community that can be used to inform product development and marketing decisions.
 
 ## Technologies:
 ### Backend:
