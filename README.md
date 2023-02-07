@@ -8,6 +8,7 @@ modvis is a tool that allows users to easily access and analyze data on the late
 ### Backend:
 - Python 3.9
 - Django 3.2
+- Django REST Framework 3.12.4
 - PostgreSQL 13.3
 - Supabase 1.0
 ### Containerization:
@@ -23,6 +24,11 @@ modvis is a tool that allows users to easily access and analyze data on the late
 - TailwindCSS 2.2.19
 - D3.js 7.0.0
 - Plotly.js 2.7.0
+
+### Testing:
+- Pytest 6.2.4
+- Selenium 3.141.0
+- Django 
 
 ### Deployment:
 - TBD (AWS, GCP, Azure, Netlify, Vercel, etc.)
