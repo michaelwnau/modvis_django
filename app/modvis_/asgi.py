@@ -10,7 +10,7 @@ https://docs.djangoproject.com/en/3.2/howto/deployment/asgi/
 import os
 
 from django.core.asgi import get_asgi_application
-
+#---Chnage this line to modvis_ instead of hello_django
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'hello_django.settings')
 
 application = get_asgi_application()

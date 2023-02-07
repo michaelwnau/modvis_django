@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class HelloappConfig(AppConfig):
+class modivis_appConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'helloapp'
+    name = 'modvis_app'

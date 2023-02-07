@@ -67,7 +67,7 @@ TEMPLATES = [
         },
     },
 ]
-
+#--Change application name here to modvis_
 WSGI_APPLICATION = 'hello_django.wsgi.application'
 
 
