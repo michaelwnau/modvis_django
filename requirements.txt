@@ -6,4 +6,8 @@ PostgreSQL==13.3
 python-decouple==3.4
 pytest==6.2.4
 pytest-django==4.4.0
-
+psycopg2-binary==2.9.2
+django-storages[google]==1.12.3
+django-environ==0.8.1
+google-cloud-secret-manager==2.8.0
+google-auth==2.3.3
