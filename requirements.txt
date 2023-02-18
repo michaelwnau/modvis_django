@@ -4,4 +4,5 @@ gunicorn==20.0.4
 psycopg2==2.8.6
 PostgreSQL==13.3
 python-decouple==3.4
+pytest==6.2.4
 
