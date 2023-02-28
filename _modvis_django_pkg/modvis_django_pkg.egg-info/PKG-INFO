@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: modvis-django-pkg
+Version: 0.0.1
+Summary: A Django app about mods
+Home-page: UNKNOWN
+Author: Author Name
+Author-email: michaelwnau@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.8
+License-File: LICENSE.txt
+
+==============
+_modvis_django_pkg
+==============
+
+Modvis is a Django app that can be installed in an existing Django project
+Documentation: https://toddpy-django-cityloc-pkg.readthedocs.io/en/latest/
+
+Installation
+------------
+
+1. Add "_modvis_django_pkg" to your INSTALLED_APPS setting in settings.py:
+    INSTALLED_APPS = [
+        ...
+        
+        '_modvis_django',
+
+    ]
+
+2. Include the _modvis_django URLconf in your project urls.py like this::
+    path('', include('_modvis_django.urls')),
+
+3. Start the development server and visit http://127.0.0.1:8000/
+

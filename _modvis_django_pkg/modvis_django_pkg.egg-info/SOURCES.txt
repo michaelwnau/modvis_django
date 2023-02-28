@@ -1,0 +1,9 @@
+LICENSE.txt
+README.rst
+setup.cfg
+setup.py
+modvis_django_pkg.egg-info/PKG-INFO
+modvis_django_pkg.egg-info/SOURCES.txt
+modvis_django_pkg.egg-info/dependency_links.txt
+modvis_django_pkg.egg-info/requires.txt
+modvis_django_pkg.egg-info/top_level.txt
