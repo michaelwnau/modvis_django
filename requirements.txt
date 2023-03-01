@@ -46,7 +46,6 @@ diffusers==0.11.1
 dill==0.3.6
 distlib==0.3.6
 Django==3.2
-django-cityloc-pkg==0.0.1
 djangorestframework==3.14.0
 dnspython==2.3.0
 docutils==0.19
