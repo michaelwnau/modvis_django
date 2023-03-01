@@ -1,18 +1,36 @@
-#Django==3.1.14
-#DjangoRestFramework==3.12.4
+Django==3.2
 gunicorn==20.0.4
-#psycopg2==2.8.6
-#psycopg-binary==2.8.6
-#PostgreSQL==15.2
+postgres==4.0
+
 python-decouple==3.4
-pytest==6.2.4
+pytest>=6.2.4
 pytest-django==4.4.0
-#psycopg2-binary==2.9.2
+
+
 django-storages[google]==1.12.3
 django-environ==0.8.1
+
+psycopg2-binary==2.9.5
+psycopg2-pool==1.1
+
+Sphinx==6.1.3
+sphinxcontrib-applehelp==1.0.4
+sphinxcontrib-devhelp==1.0.2
+sphinxcontrib-htmlhelp==2.0.1
+sphinxcontrib-jsmath==1.0.1
+sphinxcontrib-qthelp==1.0.3
+sphinxcontrib-serializinghtml==1.1.5
+
+twine==4.0.2
+Pillow==9.3.0
+
 google-cloud-secret-manager==2.8.0
 google-auth==2.3.3
-##aiofiles==22.1.0
+
+
+# Dependencies that appear but need to be deconflicted
+
+
 aiosqlite==0.18.0
 alabaster==0.7.13
 alembic==1.9.2
@@ -45,7 +63,6 @@ defusedxml==0.7.1
 diffusers==0.11.1
 dill==0.3.6
 distlib==0.3.6
-Django==3.2
 djangorestframework==3.14.0
 dnspython==2.3.0
 docutils==0.19
@@ -54,7 +71,6 @@ entrypoints==0.4
 exceptiongroup==1.1.0
 executing==1.2.0
 
-gunicorn==20.0.4
 
 imagesize==1.4.1
 importlib-metadata==6.0.0
@@ -75,15 +91,11 @@ json5==0.9.11
 jsonpointer==2.3
 jsonschema==4.17.3
 
-Pillow==9.3.0
 pkginfo==1.9.6
 platformdirs==2.5.4
 pluggy==1.0.0
-postgres==4.0
 
 psutil==5.9.4
-psycopg2-binary==2.9.5
-psycopg2-pool==1.1
 pure-eval==0.2.2
 py4j==0.10.9.5
 pycodestyle==2.9.1
@@ -111,13 +123,6 @@ pyzmq==25.0.0
 qtconsole==5.4.0
 QtPy==2.3.0
 
-Sphinx==6.1.3
-sphinxcontrib-applehelp==1.0.4
-sphinxcontrib-devhelp==1.0.2
-sphinxcontrib-htmlhelp==2.0.1
-sphinxcontrib-jsmath==1.0.1
-sphinxcontrib-qthelp==1.0.3
-sphinxcontrib-serializinghtml==1.1.5
 SQLAlchemy==1.4.17
 SQLAlchemy-Utils==0.39.0
 sqlparse==0.4.3
@@ -133,7 +138,6 @@ tomlkit==0.11.6
 tornado==6.2
 tqdm==4.64.1
 traitlets==5.8.1
-twine==4.0.2
 typing_extensions==4.4.0
 tzdata==2022.7
 uri-template==1.2.0
