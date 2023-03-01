@@ -19,7 +19,7 @@ services:
       - pg
   pg:
       container_name: pg_container
-      image: postgres:13.2-alpine
+      image: postgres:15.2
       restart: always
       environment:
           POSTGRES_USER: postgres
