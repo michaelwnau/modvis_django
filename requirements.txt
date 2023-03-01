@@ -2,6 +2,7 @@ Django==3.1.14
 DjangoRestFramework==3.12.4
 gunicorn==20.0.4
 psycopg2==2.8.6
+psycopg-binary==2.8.6
 PostgreSQL==15.2
 python-decouple==3.4
 pytest==6.2.4
