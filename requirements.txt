@@ -42,3 +42,22 @@ djangorestframework==3.14.0
 Jinja2==3.1.2
 
 
+tornado==6.2
+tqdm==4.64.1
+traitlets==5.8.1
+typing_extensions==4.4.0
+tzdata==2022.7
+uri-template==1.2.0
+urllib3==1.26.14
+virtualenv==20.17.1
+wcwidth==0.2.6
+webcolors==1.12
+webencodings==0.5.1
+websocket-client==1.4.2
+Werkzeug==2.2.2
+widgetsnbextension==4.0.5
+wrapt==1.14.1
+WTForms==3.0.1
+y-py==0.5.5
+ypy-websocket==0.8.2
+zipp==3.11.0

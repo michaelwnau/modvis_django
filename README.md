@@ -31,7 +31,7 @@ modvis is a tool that allows users to easily access and analyze data on the late
 - Django Test Client 3.2
 
 ### Deployment:
-- TBD (AWS, GCP, Azure, Netlify, Vercel, etc.)
+- Google Cloud
 
 ### Observability:
 - TBD (Prometheus, Grafana, etc.)
